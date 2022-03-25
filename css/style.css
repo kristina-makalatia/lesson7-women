@@ -1,0 +1,87 @@
+/*fluid page*/
+/*html, body {
+	width: 100%;
+	height: 100%;
+}
+.image,
+.wraper {
+	width: 100%;
+	height: 100%;
+}*/
+
+/*Display Flex*/
+.container {
+	width: 1170px;
+	margin:  0 auto;
+	background: lightblue;
+}
+.block {
+	width:  371px;
+	height: 374px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.line1 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+.blue-icon {
+	width: 88px;
+	height: 88px;
+	background: #325DFF;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.text {
+	width: 250px;
+	background: grey;
+	text-align: center;
+}
+.size {
+	margin-top: 25px;
+}
+.text-block {
+	width: 770px;
+	background: coral;
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*pseudo classes*/
+.block:first-child {
+	background: yellow;
+	margin-bottom: 25px;
+}
+.block:nth-child(2) {
+	background: red;
+	margin-bottom: 25px;
+}
+.block:nth-child(3) {
+	background: pink;
+	margin-bottom: 25px;
+}
+.block:nth-child(4) {
+	background: coral;
+}
+.block:nth-child(5) {
+	background: grey;
+}
+.block:last-child {
+	background: green;
+}
+/*.block:nth-child(even) {
+	background: yellow;
+}
+
+.block:nth-child(odd) {
+	background: green;
+}*/
+
+/*.block:nth-child(2n) {
+	
+}*/
